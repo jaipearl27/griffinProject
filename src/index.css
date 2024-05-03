@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100vh
+}
+
+
+
+
+*::-webkit-scrollbar-track
+{
+  display: none;
+	-webkit-box-shadow: inset 0 0 6px rgba(151, 151, 151, 0.3);
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar
+{
+  display: none;
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb
+{
+  display: none;
+	background-color: #ff0000;
+}
